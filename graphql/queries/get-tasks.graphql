@@ -1,0 +1,8 @@
+query getTasks {
+  tasks(order_by: {createdAt: asc}) {
+    id,
+    name,
+    content,
+    isDone
+  }
+}

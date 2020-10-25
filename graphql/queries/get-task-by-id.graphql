@@ -1,0 +1,10 @@
+query getTaskById($id: uuid!) {
+  tasks_by_pk(id: $id) {
+    id,
+    name,
+    content,
+    isDone,
+    createdAt,
+    updatedAt
+  }
+}

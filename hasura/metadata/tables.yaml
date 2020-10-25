@@ -1,0 +1,9 @@
+- table:
+    schema: public
+    name: tasks
+  configuration:
+    custom_root_fields: {}
+    custom_column_names:
+      is_done: isDone
+      updated_at: updatedAt
+      created_at: createdAt

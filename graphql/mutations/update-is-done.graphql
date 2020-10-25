@@ -1,0 +1,6 @@
+mutation updateIsDone($id: uuid!, $isDone: Boolean!) {
+  update_tasks_by_pk(pk_columns: {id: $id}, _set: {isDone: $isDone}) {
+    id,
+    isDone
+  }
+}

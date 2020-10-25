@@ -1,0 +1,1 @@
+CREATE TABLE "public"."tasks"("id" UUID NOT NULL DEFAULT gen_random_uuid(), "name" text NOT NULL, "content" text, "is_done" boolean NOT NULL DEFAULT false, "created_at" timestamptz NOT NULL DEFAULT now(), "updated_at" timestamptz NOT NULL DEFAULT now(), PRIMARY KEY ("id") );
