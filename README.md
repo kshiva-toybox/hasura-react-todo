@@ -7,6 +7,7 @@ Hasura GraphQL Engine, React + Apollo Client
 $ yarn
 $ docker-compose up -d
 $ yarn hasura migrate apply --project hasura
+$ yarn hasura seeds apply --project hasura
 $ yarn hasura console --project hasura
 ```
 
@@ -14,7 +15,6 @@ $ yarn hasura console --project hasura
 ```
 $ cd ./client
 $ yarn
-$ yarn hasura seeds apply --project hasura
 $ yarn start
 ```
 
